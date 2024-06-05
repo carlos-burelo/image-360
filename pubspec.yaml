@@ -1,0 +1,26 @@
+name: imagen_360_la
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  panorama_viewer: ^1.0.4
+  sensors_plus: ^5.0.1
+  image_picker: ^1.1.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - descarga.png
+    - 1.jpeg
